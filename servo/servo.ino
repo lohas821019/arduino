@@ -23,20 +23,28 @@ void setup()
 
 void loop()
 {
- moto(DIR);  
+  if (Serial.available() > 0) {
+  // 讀取收到的資料
+
+    String c = Serial.readString();
+    DIR = c.toInt();
+    moto(DIR);  
+  }
 }
 
-void moto(byte DIR)
+void moto(int DIR)
 {
     switch (DIR)
     {
     case 0:
         RCL.write(70);
         RCR.write(70);
+        Serial.println("我收到了0");
         break;
     case 1:
         RCL.write(0);
         RCR.write(30);
+        Serial.println("我收到了1");
         break;
     case 2:
         RCL.write(0);

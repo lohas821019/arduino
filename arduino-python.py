@@ -19,12 +19,12 @@ try:
         if choice == '1':
             
             print('傳送1指令')
-            ser.write(b'LED_ON\n')  # 訊息必須是位元組類型
+            ser.write(b'0')  # 訊息必須是位元組類型
             time.sleep(0.5)
             
         elif choice == '2':
             print('傳送2指令')
-            ser.write(b'LED_OFF\n')
+            ser.write(b'1')
             time.sleep(0.5)
             
         elif choice == 'e':
