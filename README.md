@@ -1,5 +1,3 @@
-# README.md
-
 # Arduino
 
 Using Arduino to control motor
