@@ -20,4 +20,4 @@ void moto(byte DIR, int PWMA, int PWMB)
 }
 ```
 
-![error.png](/resources/error.png)
+![error message ](./resources/error.PNG)
