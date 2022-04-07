@@ -23,7 +23,15 @@ void moto(byte DIR, int PWMA, int PWMB)
 ![error message ](./resources/error.PNG)
 
 
-# Arduino  DM542 motor control 
+# Arduino  DM542 motor control 接法
 
 ![DM542](./resources/DM542.JPG)
+
+
+
+```
+int pulPin = 10;  //pulse/clock/脈波
+int dirPin = 11;  // 方向
+int enblPin = 12;  //制能或是使用
+```
 
