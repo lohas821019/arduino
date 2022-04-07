@@ -35,3 +35,7 @@ int dirPin = 11;  // 方向
 int enblPin = 12;  //制能或是使用
 ```
 
+# 參考資料
+https://www.youtube.com/watch?v=x5L7B64f46o&t=436s&ab_channel=YangEugene
+
+https://www.youtube.com/watch?v=SeqlgZLqI-k&ab_channel=MakerTutor
