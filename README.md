@@ -21,3 +21,8 @@ void moto(byte DIR, int PWMA, int PWMB)
 ```
 
 ![error message ](./resources/error.PNG)
+
+
+# Arduino  DM542 motor control 
+
+![DM542 ](./resources/DM542.jpg)
