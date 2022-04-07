@@ -25,4 +25,5 @@ void moto(byte DIR, int PWMA, int PWMB)
 
 # Arduino  DM542 motor control 
 
-![DM542 ](./resources/DM542.jpg)
+![DM542](./resources/DM542.JPG)
+
