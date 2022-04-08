@@ -44,8 +44,8 @@ void loop() {
     motor_control(c[0], c[1], x);
     Serial.println('9');
   }
-  delay(1000)
-  motor_control(1,0,0)
+  delay(1000);
+  //motor_control(1,0,0);
 
 }
 
@@ -83,7 +83,7 @@ void  steptimes( int x ) {
     delayMicroseconds(50);
 
     //    delay(1);
-    delayMicroseconds(200);
+    //delayMicroseconds(200);
     //    Serial.println(counter);
     //原本是100 100 1000
   }
