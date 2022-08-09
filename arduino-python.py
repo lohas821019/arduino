@@ -59,4 +59,5 @@ while 1:
   time.sleep(1)              # Sleep (or inWaiting() doesn't give the correct value)
   data_left = ser.inWaiting()  # Get the number of characters ready to be read
   tdata += ser.read(data_left)
+  tdata = tdata.decode('utf-8').strip()
   print(tdata)
