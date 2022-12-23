@@ -39,7 +39,7 @@ void loop() {
       Serial.print(secondNum);
     }
   }
-  if (newKey != NO_KEY && (newKey == '+' || newKey == '-' || newKey == ' ' || newKey == '/')) {
+  if (newKey != NO_KEY && (newKey == '+' || newKey == '-' || newKey == '*' || newKey == '/')) {
     if (firstNumState == true) {
       operatr = newKey;
       firstNumState = false;
@@ -51,6 +51,8 @@ void loop() {
       result = firstNum.toFloat() + secondNum.toFloat();
     }
     if (operatr == '-') {
+      Serial.print(firstNum.toFloat())
+      Serial.print(secondNum.toFloat())  
       result = firstNum.toFloat() - secondNum.toFloat();
     }
     if (operatr == '*') {
