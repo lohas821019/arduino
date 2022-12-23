@@ -7,7 +7,7 @@ char keys[ROWS][COLS] = {
   {'1', '2', '3', '+'},
   {'4', '5', '6', '-'},
   {'7', '8', '9', '/'},
-  {' ', '0', 'C', '='}
+  {'*', '0', 'C', '='}
 };
 
 byte rowPins[ROWS] = {9, 8, 7, 6};
@@ -20,7 +20,7 @@ boolean firstNumState = true;
 String firstNum = "";
 String secondNum = "";
 float result = 0.0;
-char operatr = ' ';
+char operatr = '';
 
 void setup() {
  Serial.begin(9600);//設置串口波特率爲9600
@@ -71,5 +71,5 @@ void clr() {
   firstNum = "";
   secondNum = "";
   result = 0;
-  operatr = ' ';
+  operatr = '';
 }
